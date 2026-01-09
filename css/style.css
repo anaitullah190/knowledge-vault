@@ -67,6 +67,10 @@ h2 {
   background-color: transparent;
   border: 1px solid #ffffffa6;
 }
+.fa-play{
+    color: #FFF;
+    margin-right: 10px;
+}
 /* Features */
 #features {
   text-align: center;
@@ -104,7 +108,7 @@ h2 {
 .solution-content ul{
     list-style: none;
 }
-.fa-solid {
+.fa-check {
     color: #30B868;
 }
 .solution-content p{
@@ -114,12 +118,23 @@ h2 {
 /* Get Action */
 .get-action{
     text-align: center;
+    padding-bottom: 120px;
 }
 .get-action p{
     width: 40%;
     margin: auto;
    padding: 10px 0 30px;
    color: #627382;
+}
+.get-action a{
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+.fa-right-long{
+color: #fff;
+margin-left: 10px;
+align-items: center;
 }
 /* Footer */
 .footer {
