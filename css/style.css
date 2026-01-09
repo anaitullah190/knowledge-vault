@@ -92,6 +92,35 @@ h2 {
   padding: 20px;
   border-radius: 8px;
 }
+/* Solution */
+.solution {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 120px;
+}
+.solution-content ul{
+    list-style: none;
+}
+.fa-solid {
+    color: #30B868;
+}
+.solution-content p{
+    padding: 20px 0;
+    color: #627382;
+}
+/* Get Action */
+.get-action{
+    text-align: center;
+}
+.get-action p{
+    width: 40%;
+    margin: auto;
+   padding: 10px 0 30px;
+   color: #627382;
+}
 /* Footer */
 .footer {
   background: #0f172a;
