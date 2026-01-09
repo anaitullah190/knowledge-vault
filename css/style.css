@@ -24,7 +24,6 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid black;
   padding: 16px 0;
 }
 .navbar ul {
@@ -38,15 +37,27 @@ h2 {
   text-decoration: none;
   color: #000;
 }
+#header-btn{
+    color: #fff;
+}
 /* Hero */
 #hero {
   text-align: center;
-  padding: 70px;
-  border: 1px solid rebeccapurple;
+  padding: 70px 0 140px;
   background-image: url("../assets/hero.png");
+  background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
 }
+.hero-content button {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border-style: none;
+    display: flex;
+    gap: 5px;
+    margin: 20px auto;
+}
+
 .hero-content h1 {
   font-size: 72px;
   font-weight: 700;
@@ -93,7 +104,7 @@ h2 {
 }
 .features-list article {
   box-shadow: 0px 0px 8px 0px #0000000f;
-  padding: 20px;
+  padding: 50px 20px;
   border-radius: 8px;
 }
 /* Solution */
@@ -146,6 +157,10 @@ align-items: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px 0;
+}
+.social-link-list h4 {
+    color: #FFF;
 }
 .footer-content {
   max-width: 1280px;
